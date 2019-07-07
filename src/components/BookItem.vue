@@ -1,7 +1,6 @@
 <template>
 	<li>{{book.title}}:{{book.author}}</li>
 </template>
-
 <script>
 export default {
 	name: "BookItem",
@@ -10,7 +9,6 @@ export default {
 	]
 }
 </script>
-
 <style>
 	li {
 		display: block;
